@@ -1,0 +1,278 @@
+
+@media screen and (max-width: 750px) {
+    .wrapper .__inner_section_1 .container header .contactus {display: none;}
+    .wrapper .__inner_section_1 .container header .navigtion {display: none;}
+};
+/* container */
+.elem{display: none;}
+
+@media screen and (min-width: 1536px) {
+    .container{
+        padding-top: 5%;
+    }
+};
+.elem{display: none;}
+@media screen and (max-width: 1300px) {
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+};
+.elem{display: none;}
+
+
+@media screen and (max-width: 623px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+};
+
+.elem{display: none;}
+
+
+
+
+/* Изминение сетки во всремя адаптации макс 1100пикселей */
+
+@media screen and (max-width: 758px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: minmax(240px,auto);
+        grid-template-rows:auto minmax(auto,400px);
+
+        grid-template-areas: 
+        "box1"
+        "box3"
+        "box2";         
+
+        margin: 0;
+    }
+
+    .wrapper .__inner_section_3{
+        background-position-x: center;
+        background-size: 100%;
+        float: left;
+    }
+
+    .wrapper-3{
+        display: grid;
+        grid-template-columns:minmax(240px,auto);
+        grid-template-rows:  repeat(3,minmax(auto,300px) auto);
+        grid-template-areas: 
+
+        "col-2"
+        "col-1"
+
+        "col-4"
+        "col-3"
+
+        "col-6"
+        "col-5"
+        ;
+    }
+    .wrapper-3 .img1{ 
+        grid-area: col-2;
+        padding: 0 25%;
+        background-position: center;
+        background-position-y: center;
+        
+    }
+    .wrapper-3 .img2{
+        grid-area: col-4;
+        padding: 5% 25% 0;
+        background-position: center;
+        background-position-y: 40%;
+
+    }
+    .wrapper-3 .img3{
+        grid-area: col-6;
+        padding: 0 25%;
+        background-position: center;
+        background-position-y: center;
+    }
+
+    .wrapper-3 .__inner_wrapper_3{grid-area: col-5;background: rgb(245,207,136);background: linear-gradient(0deg, rgb(248 209 142) 0%, rgb(237 192 107) 96%)}
+    .wrapper-3 .__inner_wrapper_3 .d-flex{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+};
+
+.elem{display: none;}
+
+@media screen and (max-width: 1440px) {
+    .wrapper .__inner_section_2 .container .text-1{
+        font-size: 24px;
+        line-height: 35px;
+        padding-top: 15%;
+    }
+};
+
+.elem{display: none;}
+
+@media screen and (max-width: 1300px) {
+    .wrapper .__inner_section_2 .container .text-1{
+        font-size: 20px;
+        line-height: 31px;
+        padding-top: 15%;
+
+    }
+    .wrapper .__inner_section_2 .container .text-1 h4{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .wrapper-2 .container 
+    .wrapper_content 
+    .text-2{
+        font-size: 18px;line-height: 31px;
+    }
+};
+
+.elem{display: none;}
+@media screen and (max-width: 720px) {
+    .wrapper-2 .wrapper_blocks{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: minmax(auto,1fr);
+    
+    }
+    .wrapper-2 .box{
+        padding-top: 110px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    
+}
+.elem{display: none;}
+
+@media screen and (max-width: 425px) {
+
+
+    .wrapper-2 .wrapper_blocks{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+    
+    }
+    .wrapper-2 .box{
+        padding-top: 110px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+
+    .wrapper .__inner_section_1 .container section .__inner_section_1_01 .btns{padding: 10% 0px;}
+}
+.elem{display: none;}
+
+
+@media screen and (max-width: 1150px){
+    .wrapper-2 .wrapper_blocks .content-item p{
+        font-size: 24px;
+        line-height: 24px;   
+    }
+};
+.elem{display: none;}
+
+@media screen and (min-width: 1150px){
+    .wrapper-2 .wrapper_blocks .content-item p{
+        font-size: 32px;
+        line-height: 26px;   
+    }
+};
+.elem{display: none;}
+@media screen and (min-width: 1300px){
+    .wrapper-2 .wrapper_blocks .content-item p{
+        font-size: 28px;
+        line-height: 30px;   
+    }   
+};
+
+/* ------------text-4---------------------------------------------------------- */
+
+.elem{display: none;}
+
+
+
+
+@media screen and (max-width: 900px){
+    .wrapper .__inner_section_1 .container section .__inner_section_1_01 h4{
+        font-size: 46px;
+    }
+    .wrapper-2 .box_2 .bottom-in h3{
+        font-size: 130%;                 
+        line-height: 31px; 
+    }
+    .wrapper-2 .box .item p{
+        font-size: 100%;
+        line-height: 31px; 
+    }
+   
+    .wrapper-2 .box .item p::before{
+        font-size: 100%;
+    } 
+    
+}
+.elem{display: none;}
+@media screen and (max-width: 700px){
+    .wrapper .__inner_section_1 .container section .__inner_section_1_01 h4{
+        font-size: 42px;
+    }
+    .wrapper-2 .box .item p{
+        font-size: 24px;
+        line-height: 31px; 
+    }
+    .wrapper-2 .box .item p::before{
+        font-size: 100%;
+    }
+}
+.elem{display: none;}
+@media screen and (max-width: 500px){
+    .wrapper .__inner_section_1 .container section .__inner_section_1_01 h4{
+        font-size: 32px;
+    }
+    .wrapper-2 .box_2 .bottom-in h3{
+        font-size: 90%;                 
+        line-height: 31px; 
+    }
+    .wrapper-2 .box .item p{
+        font-size: 24px;
+        line-height: 31px; 
+    }
+    .wrapper-2 .box .item p::before{
+        font-size: 100%;
+    }
+}
+
+.elem{display: none;}
+
+
+@media screen and (max-width: 1024px){
+    .wrapper-2 .box_2{
+        display: grid;
+        padding:15px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,minmax(auto,240px));
+        justify-items: center;
+    }
+}
+
+.elem{display: none;}
+
+@media screen and (max-width: 425px){
+    .wrapper-2 .box_2{
+        display: grid;
+        padding:15px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,minmax(auto,240px));
+        justify-items: center;
+    }
+}
+/* ---------------------------------------------------------------------- */
+   
+
